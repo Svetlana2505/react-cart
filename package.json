@@ -2,7 +2,7 @@
   "name": "",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Svetlana2505.github.io/",
+  "homepage": "https://Svetlana2505.github.io/react-cart/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
