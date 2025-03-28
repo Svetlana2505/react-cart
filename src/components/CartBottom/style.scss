@@ -1,0 +1,25 @@
+.cart-bottom {
+  display: grid;
+  grid-template-columns: 5fr repeat(2, 3fr) 1fr;
+  background: rgba(234, 239, 242, 1);
+  padding: 19px 0;
+  margin-top: auto;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  text-transform: lowercase;
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr 1fr;
+    padding-left: 15px;
+  }
+}
+
+.cart-bottom__count {
+  grid-column-start: 2;
+
+  @media (max-width: 600px) {
+    grid-column-start: 1;
+  }
+}

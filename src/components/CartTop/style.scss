@@ -1,0 +1,23 @@
+.cart-top {
+  display: grid;
+  grid-template-columns: 2fr repeat(3, 3fr) 1fr;
+  padding: 22px 0;
+  background: rgba(234, 239, 242, 1);
+  gap: 30px;
+
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.2;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  @media (max-width: 600px) {
+    height: 1px;
+    padding: 0;
+    font-size: 0;
+  }
+}
+
+.cart-top__title {
+  grid-column-start: 2;
+}
